@@ -19,7 +19,8 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+        anim.SetFloat("hSpeed", Mathf.Abs(Input.GetAxis("Horizontal")));
+        //anim.SetFloat("vSpeed", Mathf.Abs(Input.GetAxis("Vertical")));
 	
 	}
 
@@ -37,11 +38,21 @@ public class PlayerMovement : MonoBehaviour {
         {
             rb2d.AddForce(Vector2.right * h * moveSpeed);
         }
-        /*
+        
         if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
         {
             rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
-        }*/
+        }
+
+        if (v * rb2d.velocity.y < maxSpeed)
+        {
+            rb2d.AddForce(Vector2.up * v * moveSpeed);
+        }
+
+        if (Mathf.Abs(rb2d.velocity.y) > maxSpeed)
+        {
+            rb2d.velocity = new Vector2(rb2d.velocity.x, Mathf.Sign(rb2d.velocity.y));
+        }
 
         if (h > 0 && !facingRight)
             Flip();
@@ -53,12 +64,8 @@ public class PlayerMovement : MonoBehaviour {
         {
             rb2d.AddForce(Vector2.up * jumpHeight);
             canJump = false;
-        }*/
-
-        if (v * rb2d.velocity.y < maxSpeed)
-        {
-            rb2d.AddForce(Vector2.up * v * moveSpeed);
         }
+        */
     }
 
     void Flip()
@@ -73,7 +80,8 @@ public class PlayerMovement : MonoBehaviour {
     {
         /*if (coll.gameObject.tag == "ground")
         {
-            //canJump = true;
-        }*/
+            canJump = true;
+        }
+        */
     }
 }
