@@ -5,11 +5,8 @@ public class PlayerMovement : MonoBehaviour {
 
     public float moveSpeed = 50f;
     public float maxSpeed = 3f;
-    public float jumpHeight;
     
-    public bool facingRight = true;
-    public bool canJump = true;
-
+    private bool facingRight = true;
     private Rigidbody2D rb2d;
     private Animator anim;
 
@@ -28,6 +25,11 @@ public class PlayerMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
+        MoveAxis();
+    }
+
+    void MoveAxis()
+    {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
@@ -35,26 +37,27 @@ public class PlayerMovement : MonoBehaviour {
         {
             rb2d.AddForce(Vector2.right * h * moveSpeed);
         }
-
+        /*
         if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
         {
             rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
-        }
+        }*/
 
         if (h > 0 && !facingRight)
-        {
             Flip();
-        }
 
         if (h < 0 && facingRight)
-        {
             Flip();
-        }
-
+        /*
         if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
             rb2d.AddForce(Vector2.up * jumpHeight);
             canJump = false;
+        }*/
+
+        if (v * rb2d.velocity.y < maxSpeed)
+        {
+            rb2d.AddForce(Vector2.up * v * moveSpeed);
         }
     }
 
@@ -68,9 +71,9 @@ public class PlayerMovement : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "ground")
+        /*if (coll.gameObject.tag == "ground")
         {
-            canJump = true;
-        }
+            //canJump = true;
+        }*/
     }
 }
