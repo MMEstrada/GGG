@@ -19,8 +19,15 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        anim.SetFloat("hSpeed", Mathf.Abs(Input.GetAxis("Horizontal")));
-        //anim.SetFloat("vSpeed", Mathf.Abs(Input.GetAxis("Vertical")));
+        if (Mathf.Abs(Input.GetAxis("Horizontal")) != 0 || Mathf.Abs(Input.GetAxis("Vertical")) != 0)
+        {
+            anim.SetBool("Movement", true);
+        }
+        else
+        {
+            anim.SetBool("Movement", false);
+        }
+
 	
 	}
 
