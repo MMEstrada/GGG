@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 9b5cc02067f418b4b8e9d93356ed0614
-timeCreated: 1472943285
+guid: fc069e2d37f5b924f9e7fd28376b1a75
+timeCreated: 1472943808
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: LavaGator_Idle01_0
-    21300002: LavaGator_Idle01_1
-    21300004: LavaGator_Idle01_2
-    21300006: LavaGator_Idle01_3
+    21300000: LavaGator_WalkingRight01_0
+    21300002: LavaGator_WalkingRight01_1
+    21300004: LavaGator_WalkingRight01_2
+    21300006: LavaGator_WalkingRight01_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,54 +62,54 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LavaGator_Idle01_0
+      name: LavaGator_WalkingRight01_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
+        x: 12
+        y: 16
         width: 629
         height: 158
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: LavaGator_Idle01_1
+      name: LavaGator_WalkingRight01_1
       rect:
         serializedVersion: 2
-        x: 641
-        y: 0
-        width: 631
-        height: 157
+        x: 646
+        y: 7
+        width: 635
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LavaGator_WalkingRight01_2
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 16
+        width: 629
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LavaGator_WalkingRight01_3
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 6
+        width: 634
+        height: 164
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: LavaGator_Idle01_2
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 1
-        width: 633
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: LavaGator_Idle01_3
-      rect:
-        serializedVersion: 2
-        x: 1910
-        y: 0
-        width: 630
-        height: 157
-      alignment: 9
-      pivot: {x: 0.50908446, y: 0.4999998}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
