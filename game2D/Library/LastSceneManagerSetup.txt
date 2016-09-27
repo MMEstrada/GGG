@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/KristiansWork.unity
+- path: Assets/Scenes/ChrisWork.unity
   isLoaded: 1
   isActive: 1

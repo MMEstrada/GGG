@@ -62,10 +62,10 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         if (h > 0 && !facingRight)
-            Flip();
+            flip();
 
         if (h < 0 && facingRight)
-            Flip();
+            flip();
         /*
         if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour {
         */
     }
 
-    void Flip()
+    void flip()
     {
         facingRight = !facingRight;
         Vector3 theScale = transform.localScale;
