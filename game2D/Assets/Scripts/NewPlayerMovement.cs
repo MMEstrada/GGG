@@ -30,7 +30,7 @@ public class NewPlayerMovement : MonoBehaviour
     void Update()
     {
         anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
-        Debug.Log(isGrounded);
+        //Debug.Log(isGrounded);
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             jump = true;
@@ -68,7 +68,7 @@ public class NewPlayerMovement : MonoBehaviour
 
         if (jump)
         {
-            Debug.Log("jump");
+            //Debug.Log("jump");
             rb.AddForce(new Vector3(0.0f, jumpHeight, 0.0f));
             jump = false;
         }

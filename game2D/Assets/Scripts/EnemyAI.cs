@@ -6,12 +6,13 @@ public class EnemyAI : MonoBehaviour {
     public float speed;
     public float paceLength;
     public float originalXPosition;
-    public bool facingRight = true;
+    public bool facingRight = false;
+
+    private int timer = 0;
 
     public Transform target;
     public float targetDistance;
 
-    private SpriteRenderer sp;
     private Rigidbody rb;
     private Animator anim;
     private NavMeshAgent agent;
@@ -20,7 +21,8 @@ public class EnemyAI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        sp = GetComponent<SpriteRenderer>();
+        originalXPosition = transform.position.x;
+
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
@@ -29,26 +31,30 @@ public class EnemyAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
 
-    void FixedUpdate ()
-    {
         targetDistance = Vector3.Distance(target.position, transform.position);
-        if (targetDistance < 20)
+        if (timer == 20)
         {
-            agent.enabled = true;
-            agent.updateRotation = false;
-            agent.SetDestination(target.position);
+            if (targetDistance > 20)
+            {
+                agent.enabled = false;
+                Walking();
+            }
+            else if (targetDistance < 20)
+            {
+                agent.enabled = true;
+                agent.updateRotation = false;
+                agent.SetDestination(target.position);
+            }
+            else if (targetDistance < 5)
+            {
+                Attack();
+            }
         }
-        else if (targetDistance < 5)
+        else if (timer < 20)
         {
-            Attack();
-        }
-        else
-        {
-            agent.enabled = false;
-            Walking();
+            timer++;
+            Debug.Log(timer);
         }
     }
 
@@ -58,10 +64,7 @@ public class EnemyAI : MonoBehaviour {
         if (Mathf.Abs(originalXPosition - transform.position.x) > paceLength)
         {
             speed *= -1;
-            transform.position = new Vector3(transform.position.x + 2 * speed * Time.deltaTime,
-                                             transform.position.y,
-                                             transform.position.z);
-            Flip();
+            //Flip();
         }
     }
 
@@ -74,6 +77,6 @@ public class EnemyAI : MonoBehaviour {
     void Flip()
     {
         facingRight = !facingRight;
-        sp.flipX = !sp.flipX;
+        transform.localScale *= -1;
     }
 }

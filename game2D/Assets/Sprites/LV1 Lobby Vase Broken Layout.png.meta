@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: 557f296428ae5cd49892232af2fbc6da
-timeCreated: 1475637916
+timeCreated: 1477250748
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: LV1 Lobby Vase Broken Layout_0
+    21300002: LV1 Lobby Vase Broken Layout_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,11 +28,11 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -2
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +40,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,7 +53,33 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: LV1 Lobby Vase Broken Layout_0
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 785
+        width: 795
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LV1 Lobby Vase Broken Layout_1
+      rect:
+        serializedVersion: 2
+        x: 5851
+        y: 785
+        width: 791
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
