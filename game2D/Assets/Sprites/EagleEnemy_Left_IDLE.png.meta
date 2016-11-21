@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 7097de1ce0adf47468b6d7176218d7fe
+timeCreated: 1479595597
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EagleEnemy_Left_IDLE_0
+    21300002: EagleEnemy_Left_IDLE_1
+    21300004: EagleEnemy_Left_IDLE_2
+    21300006: EagleEnemy_Left_IDLE_3
+    21300008: EagleEnemy_Left_IDLE_4
+    21300010: EagleEnemy_Left_IDLE_5
+    21300012: EagleEnemy_Left_IDLE_6
+    21300014: EagleEnemy_Left_IDLE_7
+    21300016: EagleEnemy_Left_IDLE_8
+    21300018: EagleEnemy_Left_IDLE_9
+    21300020: EagleEnemy_Left_IDLE_10
+    21300022: EagleEnemy_Left_IDLE_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -2
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 398
+        width: 274
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_1
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 398
+        width: 277
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_2
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 398
+        width: 281
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_3
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 398
+        width: 286
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_4
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 398
+        width: 292
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_5
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 398
+        width: 297
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 304
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 297
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_8
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 290
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_9
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 283
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_10
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 0
+        width: 277
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EagleEnemy_Left_IDLE_11
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 274
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

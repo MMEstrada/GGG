@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 859eb6cd78623254a8d0acd107636b53
+timeCreated: 1479594667
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gertrude Walk Left (144ppi)_0
+    21300002: Gertrude Walk Left (144ppi)_1
+    21300004: Gertrude Walk Left (144ppi)_2
+    21300006: Gertrude Walk Left (144ppi)_3
+    21300008: Gertrude Walk Left (144ppi)_4
+    21300010: Gertrude Walk Left (144ppi)_5
+    21300012: Gertrude Walk Left (144ppi)_6
+    21300014: Gertrude Walk Left (144ppi)_7
+    21300016: Gertrude Walk Left (144ppi)_8
+    21300018: Gertrude Walk Left (144ppi)_9
+    21300020: Gertrude Walk Left (144ppi)_10
+    21300022: Gertrude Walk Left (144ppi)_11
+    21300024: Gertrude Walk Left (144ppi)_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -2
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 399
+        width: 272
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 399
+        width: 273
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 399
+        width: 274
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_3
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 399
+        width: 275
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_4
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 399
+        width: 276
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_5
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 399
+        width: 281
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_6
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 399
+        width: 281
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 30
+        width: 274
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 30
+        width: 270
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_9
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 30
+        width: 259
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_10
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 30
+        width: 247
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_11
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 30
+        width: 254
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Left (144ppi)_12
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 31
+        width: 260
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
