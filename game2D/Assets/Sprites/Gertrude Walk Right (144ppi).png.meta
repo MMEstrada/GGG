@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 60d3b82890228f446a6016b1ccf6ebf7
-timeCreated: 1475211121
+guid: 73add0228ef45b1448060848ebc60639
+timeCreated: 1480202606
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Gertrude Walk Sprite Sheet Revised (144ppi)_0
-    21300002: Gertrude Walk Sprite Sheet Revised (144ppi)_1
-    21300004: Gertrude Walk Sprite Sheet Revised (144ppi)_2
-    21300006: Gertrude Walk Sprite Sheet Revised (144ppi)_3
-    21300008: Gertrude Walk Sprite Sheet Revised (144ppi)_4
-    21300010: Gertrude Walk Sprite Sheet Revised (144ppi)_5
-    21300012: Gertrude Walk Sprite Sheet Revised (144ppi)_6
-    21300014: Gertrude Walk Sprite Sheet Revised (144ppi)_7
-    21300016: Gertrude Walk Sprite Sheet Revised (144ppi)_8
-    21300018: Gertrude Walk Sprite Sheet Revised (144ppi)_9
-    21300020: Gertrude Walk Sprite Sheet Revised (144ppi)_10
-    21300022: Gertrude Walk Sprite Sheet Revised (144ppi)_11
-    21300024: Gertrude Walk Sprite Sheet Revised (144ppi)_12
+    21300000: Gertrude Walk Right (144ppi)_0
+    21300002: Gertrude Walk Right (144ppi)_1
+    21300004: Gertrude Walk Right (144ppi)_2
+    21300006: Gertrude Walk Right (144ppi)_3
+    21300008: Gertrude Walk Right (144ppi)_4
+    21300010: Gertrude Walk Right (144ppi)_5
+    21300012: Gertrude Walk Right (144ppi)_6
+    21300014: Gertrude Walk Right (144ppi)_7
+    21300016: Gertrude Walk Right (144ppi)_8
+    21300018: Gertrude Walk Right (144ppi)_9
+    21300020: Gertrude Walk Right (144ppi)_10
+    21300022: Gertrude Walk Right (144ppi)_11
+    21300024: Gertrude Walk Right (144ppi)_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -71,11 +71,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_0
+      name: Gertrude Walk Right (144ppi)_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 392
+        x: 11
+        y: 383
         width: 197
         height: 346
       alignment: 0
@@ -84,90 +84,90 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_1
+      name: Gertrude Walk Right (144ppi)_1
       rect:
         serializedVersion: 2
-        x: 222
-        y: 392
-        width: 196
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_2
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 392
-        width: 196
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_3
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 392
-        width: 197
-        height: 347
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_4
-      rect:
-        serializedVersion: 2
-        x: 882
-        y: 392
-        width: 206
-        height: 347
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_5
-      rect:
-        serializedVersion: 2
-        x: 1102
-        y: 393
-        width: 205
-        height: 342
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_6
-      rect:
-        serializedVersion: 2
-        x: 1329
-        y: 393
-        width: 203
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_7
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 25
+        x: 244
+        y: 381
         width: 195
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_2
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 382
+        width: 198
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_3
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 382
+        width: 202
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_4
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 382
+        width: 208
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_5
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 380
+        width: 206
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_6
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 380
+        width: 204
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 15
+        width: 200
         height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -175,12 +175,51 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_8
+      name: Gertrude Walk Right (144ppi)_8
       rect:
         serializedVersion: 2
-        x: 235
-        y: 25
+        x: 251
+        y: 15
+        width: 191
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_9
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 15
         width: 184
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_10
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 15
+        width: 184
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gertrude Walk Right (144ppi)_11
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 16
+        width: 186
         height: 345
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -188,52 +227,13 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_9
+      name: Gertrude Walk Right (144ppi)_12
       rect:
         serializedVersion: 2
-        x: 456
-        y: 25
-        width: 179
-        height: 345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_10
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 25
-        width: 181
-        height: 344
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_11
-      rect:
-        serializedVersion: 2
-        x: 880
-        y: 25
-        width: 187
-        height: 342
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gertrude Walk Sprite Sheet Revised (144ppi)_12
-      rect:
-        serializedVersion: 2
-        x: 1103
-        y: 25
+        x: 1151
+        y: 14
         width: 190
-        height: 340
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
